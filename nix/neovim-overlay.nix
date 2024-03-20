@@ -78,6 +78,7 @@ with final.pkgs.lib; let
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
     (mkNvimPlugin inputs.oil-nvim "oil.nvim")
+    (mkNvimPlugin inputs.kanagawa "kanagawa.nvim")
   ];
 
   extraPackages = with pkgs; [

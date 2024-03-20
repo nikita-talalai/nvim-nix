@@ -55,6 +55,22 @@
         "type": "github"
       }
     },
+    "kanagawa": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1709127321,
+        "narHash": "sha256-eSrng/h+hN8iSu2nLLfqSMvnOmBXE2Rwwil4KWSZWU4=",
+        "owner": "rebelot",
+        "repo": "kanagawa.nvim",
+        "rev": "bfa818c7bf6259152f1d89cf9fbfba3554c93695",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rebelot",
+        "repo": "kanagawa.nvim",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1708475490,
@@ -125,7 +141,8 @@
       "inputs": {
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
-        "nixpkgs": "nixpkgs_2"
+        "kanagawa": "kanagawa",
+        "nixpkgs": "nixpkgs_2",
         "oil-nvim": "oil-nvim"
       }
     },
