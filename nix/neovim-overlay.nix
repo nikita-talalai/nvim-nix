@@ -79,6 +79,7 @@ with final.pkgs.lib; let
     which-key-nvim
     (mkNvimPlugin inputs.oil-nvim "oil.nvim")
     (mkNvimPlugin inputs.kanagawa "kanagawa.nvim")
+    (mkNvimPlugin inputs.kmonad-vim "kmonad-vim")
   ];
 
   extraPackages = with pkgs; [

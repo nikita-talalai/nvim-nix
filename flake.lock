@@ -71,6 +71,22 @@
         "type": "github"
       }
     },
+    "kmonad-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647812451,
+        "narHash": "sha256-7PKVOsb3jvuGEnP/LsrDr96wFSQMou2dgnV+hRaI444=",
+        "owner": "kmonad",
+        "repo": "kmonad-vim",
+        "rev": "37978445197ab00edeb5b731e9ca90c2b141723f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kmonad",
+        "repo": "kmonad-vim",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1708475490,
@@ -142,6 +158,7 @@
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
         "kanagawa": "kanagawa",
+        "kmonad-vim": "kmonad-vim",
         "nixpkgs": "nixpkgs_2",
         "oil-nvim": "oil-nvim"
       }

@@ -15,6 +15,11 @@
       url = "github:rebelot/kanagawa.nvim";
       flake = false;
     };
+
+    kmonad-vim = {
+      url = "github:kmonad/kmonad-vim";
+      flake = false;
+    };
     
   };
 
