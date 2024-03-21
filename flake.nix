@@ -20,7 +20,11 @@
       url = "github:kmonad/kmonad-vim";
       flake = false;
     };
-    
+
+    comment = {
+      url = "github:numToStr/Comment.nvim";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {

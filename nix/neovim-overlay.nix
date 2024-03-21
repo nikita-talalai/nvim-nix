@@ -80,6 +80,7 @@ with final.pkgs.lib; let
     (mkNvimPlugin inputs.oil-nvim "oil.nvim")
     (mkNvimPlugin inputs.kanagawa "kanagawa.nvim")
     (mkNvimPlugin inputs.kmonad-vim "kmonad-vim")
+    (mkNvimPlugin inputs.comment "comment")
   ];
 
   extraPackages = with pkgs; [

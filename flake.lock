@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "comment": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1691409559,
+        "narHash": "sha256-+dF1ZombrlO6nQggufSb0igXW5zwU++o0W/5ZA07cdc=",
+        "owner": "numToStr",
+        "repo": "Comment.nvim",
+        "rev": "0236521ea582747b58869cb72f70ccfa967d2e89",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numToStr",
+        "repo": "Comment.nvim",
+        "type": "github"
+      }
+    },
     "flake-parts": {
       "inputs": {
         "nixpkgs-lib": "nixpkgs-lib"
@@ -155,6 +171,7 @@
     },
     "root": {
       "inputs": {
+        "comment": "comment",
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
         "kanagawa": "kanagawa",
