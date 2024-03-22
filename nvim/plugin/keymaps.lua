@@ -186,6 +186,11 @@ keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'move [u]p half-page and center' })
 keymap.set('n', '<C-f>', '<C-f>zz', { desc = 'move DOWN [f]ull-page and center' })
 keymap.set('n', '<C-b>', '<C-b>zz', { desc = 'move UP full-page and center' })
 
+keymap.set({"n", "v", "o", "i"}, "<up>", "<nop>", { noremap = true })
+keymap.set({"n", "v", "o", "i"}, "<down>", "<nop>", { noremap = true })
+keymap.set({"n", "v", "o", "i"}, "<left>", "<nop>", { noremap = true })
+keymap.set({"n", "v", "o", "i"}, "<right>", "<nop>", { noremap = true })
+
 --- Disabled keymaps [enable at your own risk]
 
 -- Automatic management of search highlight
