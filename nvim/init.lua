@@ -43,6 +43,7 @@ opt.splitbelow = true
 opt.cmdheight = 0
 
 opt.clipboard = 'unnamedplus'
+opt.scrolloff = 10
 
 opt.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
 
