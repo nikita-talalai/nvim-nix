@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     gen-luarc.url = "github:mrcjkb/nix-gen-luarc-json";
+    gen-luarc.inputs.nixpkgs.follows = "nixpkgs";
     
     oil-nvim = {
       url = "github:stevearc/oil.nvim";
