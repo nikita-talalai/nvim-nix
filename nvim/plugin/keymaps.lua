@@ -191,6 +191,7 @@ keymap.set({"n", "v", "o", "i"}, "<down>", "<nop>", { noremap = true })
 keymap.set({"n", "v", "o", "i"}, "<left>", "<nop>", { noremap = true })
 keymap.set({"n", "v", "o", "i"}, "<right>", "<nop>", { noremap = true })
 
+keymap.set("i", "jk", "<Esc>", { noremap = true })
 --- Disabled keymaps [enable at your own risk]
 
 -- Automatic management of search highlight
