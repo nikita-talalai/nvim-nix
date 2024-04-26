@@ -26,6 +26,11 @@
       url = "github:numToStr/Comment.nvim";
       flake = false;
     };
+
+    navigator = {
+      url = "github:numToStr/Navigator.nvim";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {

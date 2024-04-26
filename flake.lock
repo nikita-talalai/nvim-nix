@@ -105,6 +105,22 @@
         "type": "github"
       }
     },
+    "navigator": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675344172,
+        "narHash": "sha256-Oyuv8mLPiMEsZPRnIgEjBFYJjGEhMzg+gnNhSSRvGoo=",
+        "owner": "numToStr",
+        "repo": "Navigator.nvim",
+        "rev": "91d86506ac2a039504d5205d32a1d4bc7aa57072",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numToStr",
+        "repo": "Navigator.nvim",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1708475490,
@@ -162,6 +178,7 @@
         "gen-luarc": "gen-luarc",
         "kanagawa": "kanagawa",
         "kmonad-vim": "kmonad-vim",
+        "navigator": "navigator",
         "nixpkgs": "nixpkgs",
         "oil-nvim": "oil-nvim"
       }
