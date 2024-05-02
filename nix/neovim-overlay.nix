@@ -82,6 +82,8 @@ with final.pkgs.lib; let
     (mkNvimPlugin inputs.kmonad-vim "kmonad-vim")
     (mkNvimPlugin inputs.comment "comment")
     (mkNvimPlugin inputs.navigator "navigator")
+    (mkNvimPlugin inputs.spider "spider")
+    (mkNvimPlugin inputs.nvim-various-textobjs "nvim-various-textobjs")
   ];
 
   extraPackages = with pkgs; [

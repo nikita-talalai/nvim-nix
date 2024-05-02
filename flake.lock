@@ -155,6 +155,22 @@
         "type": "github"
       }
     },
+    "nvim-various-textobjs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1714229801,
+        "narHash": "sha256-xMnmC+JzqJk2ka3YLLWyLd3x+ZI3e9maQ8L0Ym85fo8=",
+        "owner": "chrisgrieser",
+        "repo": "nvim-various-textobjs",
+        "rev": "674b7c97f2b50ac8b8876202622e52395cfdfe02",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chrisgrieser",
+        "repo": "nvim-various-textobjs",
+        "type": "github"
+      }
+    },
     "oil-nvim": {
       "flake": false,
       "locked": {
@@ -180,7 +196,25 @@
         "kmonad-vim": "kmonad-vim",
         "navigator": "navigator",
         "nixpkgs": "nixpkgs",
-        "oil-nvim": "oil-nvim"
+        "nvim-various-textobjs": "nvim-various-textobjs",
+        "oil-nvim": "oil-nvim",
+        "spider": "spider"
+      }
+    },
+    "spider": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1714215446,
+        "narHash": "sha256-idzDuINlHN1UNOn1bZMqJJ3K95sefM2V4Hwm3SIdDLw=",
+        "owner": "chrisgrieser",
+        "repo": "nvim-spider",
+        "rev": "76819082ef964db1f67f92454e18ad28ae34b37b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chrisgrieser",
+        "repo": "nvim-spider",
+        "type": "github"
       }
     },
     "systems": {

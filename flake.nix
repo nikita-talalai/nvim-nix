@@ -31,6 +31,16 @@
       url = "github:numToStr/Navigator.nvim";
       flake = false;
     };
+
+    spider = {
+      url = "github:chrisgrieser/nvim-spider";
+      flake = false;
+    };
+
+    nvim-various-textobjs = {
+      url = "github:chrisgrieser/nvim-various-textobjs";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {
