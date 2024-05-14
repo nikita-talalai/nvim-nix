@@ -10,5 +10,5 @@ require("various-textobjs").setup {
 	useDefaultKeymaps = true,
 
 	-- disable only some default keymaps, e.g. { "ai", "ii" }
-	disabledKeymaps = {},
+	disabledKeymaps = {"gc"},
 }
