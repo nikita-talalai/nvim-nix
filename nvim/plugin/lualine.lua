@@ -36,7 +36,7 @@ require('lualine').setup {
     -- },
     lualine_z = {
       -- (see above)
-      { extra_mode_status },
+      { 'location' },
     },
   },
   options = {
