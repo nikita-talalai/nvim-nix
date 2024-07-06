@@ -48,6 +48,9 @@ opt.wrap = false
 
 opt.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
 
+opt.list = true
+opt.listchars = "lead:»,eol:↲,trail:·,tab:▸\\"
+
 -- Configure Neovim diagnostic messages
 
 local function prefix_diagnostic(prefix, diagnostic)
