@@ -102,7 +102,7 @@ cmp.setup {
     },
   },
   sources = cmp.config.sources {
-    -- The insertion order influences the priority of the sources
+    { name = "luasnip" },
     { name = 'nvim_lsp', keyword_length = 3 },
     { name = 'nvim_lsp_signature_help', keyword_length = 3 },
     { name = 'buffer' },
@@ -116,14 +116,6 @@ cmp.setup {
     ghost_text = true,
   },
 }
-
-cmp.setup.filetype('lua', {
-  sources = cmp.config.sources {
-    { name = 'nvim_lua' },
-    { name = 'nvim_lsp', keyword_length = 3 },
-    { name = 'path' },
-  },
-})
 
 -- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
 cmp.setup.cmdline({ '/', '?' }, {
