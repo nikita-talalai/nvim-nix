@@ -26,5 +26,27 @@ ls.add_snippets("c", {
     func_name = i(2),
     func_args = i(3),
     func_body = i(4)
+  })),
+
+  s("for", fmt([[
+  for({init}; {cond}; {stat})
+  {{
+    {body}
+  }}
+  ]], {
+    init = i(1),
+    cond = i(2),
+    stat = i(3),
+    body = i(4),
+  })),
+
+    s("while", fmt([[
+  while({cond})
+  {{
+    {body}
+  }}
+  ]], {
+    cond = i(1),
+    body = i(2),
   }))
 })
