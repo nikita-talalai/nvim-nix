@@ -40,7 +40,7 @@ ls.add_snippets("c", {
     body = i(4),
   })),
 
-    s("while", fmt([[
+  s("while", fmt([[
   while({cond})
   {{
     {body}
@@ -48,5 +48,19 @@ ls.add_snippets("c", {
   ]], {
     cond = i(1),
     body = i(2),
-  }))
+  })),
+
+  s("scan", fmt([[
+    scanf("{format}", {var});
+    ]], {
+      format = i(1),
+      var = i(2),
+    })),
+
+  s("print", fmt([[
+    printf("{format}", {var});
+    ]], {
+      format = i(1),
+      var = i(2),
+    })),
 })
